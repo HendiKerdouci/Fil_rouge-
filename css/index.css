@@ -109,16 +109,14 @@ h2 {
 
 form{
     display: flex
-    width: 15px;
     justify-content: space-between;
-    
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
   }
   .search {
     font-size: 15px;
-    width: 80%;
+    width: 70%;
     height: 36px;
     padding-left: 30px;
     background-color: #EFEFEFFF;
