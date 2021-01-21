@@ -43,12 +43,12 @@ p {
     margin: 0;
 }
 
-.menu {
+#menu {
     width: 80%;
     margin: 0;
 }
 
-.header .menu ul {
+.header #menu ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -58,7 +58,7 @@ p {
     height: 100px;
 }
 
-.menu ul li {
+#menu ul li {
     display: flex;
     align-items: center;
     text-align: center;
@@ -68,20 +68,20 @@ p {
 
 }
 
-.menu ul li a {
+#menu ul li a {
     color: white;
     font-size: 15px;
     text-decoration: none;
     transition: .8;
 }
 
-.menu ul li a:hover {
+#menu ul li a:hover {
     color:#e96531 ;
     font-weight: 600;
 }
 
 
-.partie_1 {
+#partie_1 {
     width: 100vw;
     height: 50vw;
     background-image: url(../image/business.jpg);
@@ -108,9 +108,13 @@ h2 {
 }
 
 form{
+    display: flex
     width: 15px;
-    display: flex;
+    justify-content: space-between;
+    
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .search {
     font-size: 15px;
@@ -121,12 +125,23 @@ form{
     border: solid 1px black; 
     border-radius: 50px;
   }
-  .fa-search:hover{
+
+  .send1 {
+    padding-left:;
+    font-size: 15px;
+    background-color: #e96531;
+    border: solid 1px black; 
+    color: white;
+    border-radius:50px;
+    width: 100px;
+    height: 36px;
+    margin-right: 2vw;
+}
+
+.send1:hover{
     cursor: pointer;
   }
-  .fa-search:before {
-    content: '\f002';
-  }
+
 
 h3 {
     font-family: 'poiret', sans-serif;
@@ -317,7 +332,7 @@ a
 }
 
 .bloc {
-    border: 1px solid lightgray;
+    border: 1px solid black;
     border-radius: 1%;
     width: 20vw;
     height: 40vw;
@@ -336,7 +351,7 @@ a
 p{
     font-size: 15px;
     font-weight: 400;
-    color: rgb(175, 174, 174);
+    color: black;
     padding-bottom: 10px;
 }
 
@@ -384,7 +399,6 @@ a.sign {
     background-color: #da7852;
 }
 
-/* Mise en page de la partie 4*/
 
 .partie_4 {
     width: 100vw;
@@ -404,6 +418,11 @@ a.sign {
     line-height: 35px;
 }
 
+.para4{
+    color: white;
+    font-size: 20px;
+}
+
 form {
     display: flex;
     justify-content: space-around;
@@ -413,7 +432,7 @@ form {
 #message {
     margin-left: 40px;
     width: 45vw;
-    border-radius: 2%;
+    border-radius: 10px;
     padding: 10px;
 }
 
@@ -428,14 +447,16 @@ form {
 .service {
     display: flex;
     justify-content: space-between;
+    height: 28px;
+    border-radius: 10px;
 
 }
 
 #name,
-#email,
-.service {
-    height: 25%;
-    border-radius: 4%;
+#email {
+    height: 28px;
+    margin-bottom: 20px;
+    border-radius: 10px;
     border: none;
     padding-left : 10px; 
  
@@ -451,8 +472,8 @@ form {
 .send {
     color: white;
     font-size: 15px;
-    background-color: #E74C3C;
-    border: 2px solid #E74C3C;
+    background-color: #ec6631;
+    border: 2px solid #ec6631;
     border-radius: 2px;
     width: 20%;
     height: 100%;
@@ -481,7 +502,7 @@ i {
     margin-top: 2vw;
 }
 
-.reseaux {
+#reseaux {
     display: flex;
     font-size: 0.6em;
     justify-content: center;
