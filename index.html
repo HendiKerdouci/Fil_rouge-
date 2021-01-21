@@ -11,7 +11,7 @@
   
     <header class="header">
       <h1 class="titre">BtoB</h1>
-      <nav class="menu">
+      <nav id="menu">
         <ul>
           <li><a href="#1">CONCEPT</a></li>
           <li><a href="#2">LES OFFRES</a></li>
@@ -23,15 +23,13 @@
     </header>
   
   
-    <section class="partie_1">
+    <section id="partie_1">
       <div class="presentation">
         <h2>Connectez-vous aux TPE, PME et grandes entreprises de votre région et accédez dès maintenant à des centaines d'appels d'offres</h2>
       </div>
       <form> 
-        <input type="text" name=text" class="search" placeholder="Secteur d'activité recherché : IT, assurance, ...">
-        <button type="submit">
-            <i class="fas fa-search"></i>
-        </button>
+        <input type="text" name=text" class="search" placeholder="Secteur d'activité recherché : IT, assurance, ..."> 
+        <input class="send1" type="submit" value="Rechercher">  
       </form>
       <div>
         <button class="btn-contact"><a href="#4"> Je crée mon compte gratuitement</a></button>
@@ -115,9 +113,9 @@
           <input type="email" name="email" id="email" placeholder="Email">
           <div class="service">
             <select name="select" id="select">
-              <option value="option1">Service</option>
-              <option value="option2">sit amet consectetur</option>
-              <option value="option3">Ladipisicing elit.</option>
+              <option value="option1">Service clients</option>
+              <option value="option2">Informations générales</option>
+              <option value="option3">Autre</option>
             </select>
             <input class="send" type="submit" value="Envoyer">
           </div>
@@ -134,7 +132,7 @@
       <p>
         Designed by Hendi Kerdouci
       </p>
-      <div class="reseaux">
+      <div id="reseaux">
         <div class="facebook">
           <a href="https://www.facebook.com/" target="_blank">
           <i class="fab fa-facebook-f"></i>
